@@ -6,8 +6,15 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+from pymongo import MongoClient
 
 
 class ParserNewsPipeline:
+    def __init__(self):
+        client = MongoClient()
+        self.mongo_db = client.parser_news
+
     def process_item(self, item, spider):
+        collection = self.mongo_db.lenta
+        collection.insert_one(item)
         return item

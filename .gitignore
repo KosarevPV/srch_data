@@ -3,3 +3,4 @@ lesson_1/key.py
 lesson_1/__pycache__/
 *.xlsx
 .env
+__pycache__/

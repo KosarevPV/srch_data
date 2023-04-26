@@ -3,3 +3,5 @@ lesson_1/key.py
 lesson_1/__pycache__/
 __pycache__/
 *.xlsx
+lesson_6/
+chromedriver.exe

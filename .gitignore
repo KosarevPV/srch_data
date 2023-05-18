@@ -3,6 +3,7 @@ lesson_1/key.py
 lesson_1/__pycache__/
 __pycache__/
 *.xlsx
+jobs.db
 .env
 lesson_4/__pycache__/
 **/__pycache__/

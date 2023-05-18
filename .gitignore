@@ -2,10 +2,6 @@
 lesson_1/key.py
 __pycache__/
 *.xlsx
-
-chromedriver.exe
-=======
-jobs.db
 .env
-**/__pycache__/
-
+chromedriver.exe
+jobs.db
